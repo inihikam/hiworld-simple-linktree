@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HiWorld LinkTree</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div id="profile" class="flex flex-col items-center pt-20">
+        <div class="avatar">
+          <div
+            class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
+          >
+            <img src="profile.jpg" />
+          </div>
+        </div>
+        <div class="m-10">
+          <h1 class="text-2xl text-center font-bold">Muhammad Maulana Hikam</h1>
+          <p class="text-sm text-center">
+            Just a lazy student who likes to explore anything
+          </p>
+        </div>
+      </div>
+      <div id="link" class="flex flex-col items-center">
+        <div id="insta">
+          <a href="https://www.instagram.com/inihikam/" target="_blank">
+            <button
+              class="btn btn-outline btn-primary btn-wide btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            >
+              Instagram
+            </button>
+          </a>
+        </div>
+        <div id="wa" class="pt-5">
+          <a href="https://wa.me/6282243539209" target="_blank">
+            <button
+              class="btn btn-outline btn-primary btn-wide btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            >
+              Whatsapp
+            </button>
+          </a>
+        </div>
+        <div id="git" class="pt-5">
+          <a href="https://github.com/inihikam" target="_blank">
+            <button
+              class="btn btn-outline btn-primary btn-wide btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            >
+              Github
+            </button>
+          </a>
+        </div>
+        <div id="turbo" class="pt-5">
+          <a href="https://discord.io/turbocaffeine" target="_blank">
+            <button
+              class="btn btn-outline btn-primary btn-wide btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            >
+              Turbocaffeine
+            </button>
+          </a>
+        </div>
+      </div>
+      <div id="footer">
+        <footer class="footer footer-center p-4 pt-20 text-base-content">
+            <div>
+              <p>Copyright © 2022 - All right reserved by HiWorld Project</p>
+            </div>
+          </footer>
+      </div>
+    </div>
+
+    <script src="script.js" type="application/javascript"></script>
+  </body>
+</html>
